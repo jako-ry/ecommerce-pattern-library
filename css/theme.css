@@ -1,0 +1,72 @@
+:root {
+  --color-primary: #f69f95;
+  --color-primary-light: #fcd3c1;
+  --color-primary-dark: #c8497a;
+  --color-secondary: #ffd779;
+  --color-secondary-dark: #faad60;
+  --color-neutral: #f8e0d5;
+  --color-neutral-light: #fcf8f6;
+  --color-accent-yellow: #fffbcc;
+
+  --font-primary: "Lato", sans-serif;
+  --font-secondary: "Roboto", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary-dark);
+}
+
+h2 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+h3 {
+  font-family: var(--font-secondary);
+}
+
+h4 {
+  font-family: var(--font-secondary);
+  font-weight: normal;
+}
+
+h5 {
+  font-family: var(--font-primary);
+}
+
+h6 {
+  font-family: var(--font-primary);
+  font-weight: normal;
+}
+
+a {
+  color: var(--color-secondary-dark);
+  text-decoration: none;
+  transition: all .2s linear;
+}
+
+a:hover {
+  color: var(--color-secondary);
+}
+
+mark {
+  background-color: var(--color-secondary);
+}
+
+ul {
+  list-style-image: url('../images/arrow.svg');
+}
+
+blockquote {
+  font-weight: bold;
+}
+
+cite {
+  font-weight: normal;
+  color: var(--color-primary-dark);
+}
