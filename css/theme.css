@@ -77,3 +77,11 @@ dt {
 dd {
   color: var(--color-primary);
 }
+
+strong {
+  color: var(--color-primary-dark);
+}
+
+em {
+  color: var(--color-primary);
+}
