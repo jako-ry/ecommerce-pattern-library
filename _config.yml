@@ -2,4 +2,7 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Egg"
+  description:
+    Official Egg merchandise! Egg is the little prince from another planet.
   font_url: "https://fonts.googleapis.com/css?family=Lato:400,400i,700|Roboto:400,700"

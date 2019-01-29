@@ -18,21 +18,21 @@ html {
 
 h1 {
   font-family: var(--font-secondary);
-  color: var(--color-primary-dark);
+  color: var(--color-primary);
 }
 
 h2 {
   font-family: var(--font-secondary);
-  color: var(--color-primary);
+  color: var(--color-primary-dark);
 }
 
 h3 {
   font-family: var(--font-secondary);
+  color: var(--color-secondary-dark);
 }
 
 h4 {
   font-family: var(--font-secondary);
-  font-weight: normal;
 }
 
 h5 {
@@ -41,7 +41,6 @@ h5 {
 
 h6 {
   font-family: var(--font-primary);
-  font-weight: normal;
 }
 
 a {
@@ -58,10 +57,6 @@ mark {
   background-color: var(--color-secondary);
 }
 
-ul {
-  list-style-image: url('../images/arrow.svg');
-}
-
 blockquote {
   font-weight: bold;
 }
@@ -69,4 +64,16 @@ blockquote {
 cite {
   font-weight: normal;
   color: var(--color-primary-dark);
+}
+
+q {
+  color: var(--color-primary-dark);
+}
+
+dt {
+  color: var(--color-primary-dark);
+}
+
+dd {
+  color: var(--color-primary);
 }
