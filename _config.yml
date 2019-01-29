@@ -6,3 +6,8 @@ patternbot:
   description:
     Official Egg merchandise! Egg is the little prince from another planet.
   font_url: "https://fonts.googleapis.com/css?family=Lato:400,400i,700|Roboto:400,700"
+  rationales:
+    typefaces.primary:  |
+      Lato was selected because it uses classical proporations while still being sleek. Lato is to be used for all body copy.
+    typefaces.secondary: |
+      Roboto is to be used only in highlighting text: headers, buttons, etc.
