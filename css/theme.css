@@ -18,12 +18,12 @@ html {
 
 h1 {
   font-family: var(--font-secondary);
-  color: var(--color-primary);
+  color: var(--color-primary-dark);
 }
 
 h2 {
   font-family: var(--font-secondary);
-  color: var(--color-primary-dark);
+  color: var(--color-primary);
 }
 
 h3 {

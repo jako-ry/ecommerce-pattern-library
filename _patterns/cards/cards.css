@@ -1,0 +1,22 @@
+.card {
+  background-color: #fff;
+}
+
+.banner {
+  background-color: #fff;
+  position: relative;
+}
+
+.gradient {
+  background-image: linear-gradient(to top, rgba(252, 248, 246, 1), rgba(252, 248, 246, 0));
+  position: absolute;
+  bottom: 0;
+}
+
+.primary {
+  color: var(--color-primary);
+}
+
+.white-bg {
+  background-color: rgba(252, 248, 246, .9);
+}
