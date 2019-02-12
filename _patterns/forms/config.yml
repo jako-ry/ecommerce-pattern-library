@@ -1,0 +1,13 @@
+title: "Forms"
+description: |
+  Forms can be used for a variety of settings, however, their primary use is for checkout and login.
+
+patterns:
+  text-area:
+    title: "Text Area"
+    description: |
+      This is for large amount of text and are to be used for filling out reviews or leaving paragraph responses.
+  text:
+    title: "Text"
+    description: |
+      This is the basic input form. It is used for short one-lined text inputs like names, emails, addresses, etc.
