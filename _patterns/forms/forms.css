@@ -1,5 +1,6 @@
 input {
   border-width: thin;
+  border-radius: 12px;
   border-color: var(--color-secondary);
 }
 
@@ -11,6 +12,7 @@ input:focus {
 textarea,
 select {
   border-width: thin;
+  border-radius: 12px;
   border-color: var(--color-secondary);
 }
 
@@ -26,6 +28,10 @@ select:focus {
   border-color: var(--color-secondary);
 }
 
+[type="checkbox"] + label::before {
+  border-radius: 6px;
+}
+
 [type="checkbox"]:checked + label::before,
 [type="radio"]:checked + label::before {
   border-width: medium;
@@ -33,7 +39,7 @@ select:focus {
   background-color: var(--color-secondary-dark);
 }
 
-.flag-optional {
+.optional {
   color: #999;
 }
 
@@ -41,18 +47,14 @@ select:focus {
 .is-validated input[type="checkbox"]:invalid + label::before,
 .is-validated:invalid,
 .is-validated[type="checkbox"]:invalid + label::before {
-  border-color: #var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+  border-width: medium;
 }
 
 .error-message {
   display: none;
-  background-color: #var(--color-neutral-light);
-  color: #var(--color-primary-dark);
-}
-
-.error-message-highlighted {
-  background-color: #var(--color-primary-dark);
-  color: #fff;
+  background-color: var(--color-primary-dark);
+  color: var(--color-neutral-light);
 }
 
 .is-validated > .error-message:first-child,

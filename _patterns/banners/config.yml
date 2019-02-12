@@ -1,3 +1,17 @@
 title: "Banners"
 description: |
   Banners should only be used for important information.
+
+patterns:
+  banner:
+    title: "Top Page Banner"
+    description: |
+      The top page banners should only be used when there's something new or important that wants the attention of the user.
+  call-to-action:
+    title: "Call to Action"
+    description: |
+      The call to action banners should be used when there's something that the site wants the user to do like sign up.
+  section:
+    title: "Section"
+    description: |
+      The section banners are used when there's a long description above images.

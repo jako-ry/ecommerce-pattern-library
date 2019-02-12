@@ -10,8 +10,8 @@ patterns:
   category:
     title: "Category"
     description: |
-      They are only to be used when defining a category.
+      The category cards should only to be used when defining a category.
   product:
     title: "Product"
     description: |
-      They are only to be used when listing a product for sale. It should always includes the price under the product name.
+      The product cards should only to be used when listing a product for sale. It should always includes the price under the product name.

@@ -3,11 +3,47 @@ description: |
   Forms can be used for a variety of settings, however, their primary use is for checkout and login.
 
 patterns:
+  text:
+    title: "Text"
+    description: |
+      This is the basic form. It is used for short one-lined text inputs like names, addresses, etc.
+  email:
+    title: "Email"
+    description: |
+      This should only be used when an email is required.
+  password:
+    title: "Password"
+    description: |
+      This should only be used when a password is required.
+  tel:
+    title: "Telephone"
+    description: |
+      This should only be used when a telephone number is required.
+  number:
+    title: "Number"
+    description: |
+      This should be used when the user needs to select an unlimited quantity.
+  search:
+    title: "Search"
+    description: |
+      This should only be used for the search bar.
+  select:
+    title: "Select"
+    description: |
+      This should be used when there is a long list of options to be chosen from (more than 4).
+  radio:
+    title: "Radio Button"
+    description: |
+      This should be used when there is a short list of options to be chosen from (less than 4).
+  checkbox:
+    title: "Checkbox"
+    description: |
+      This should be used when there is a list of options where multiple options can be chosen, like filters, and for agreements.
   text-area:
     title: "Text Area"
     description: |
       This is for large amount of text and are to be used for filling out reviews or leaving paragraph responses.
-  text:
-    title: "Text"
+  submit:
+    title: "Submit"
     description: |
-      This is the basic input form. It is used for short one-lined text inputs like names, emails, addresses, etc.
+      This button is specifically for submitting forms and should only be used for forms.
