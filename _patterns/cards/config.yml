@@ -1,0 +1,17 @@
+title: "Cards"
+description: |
+  Cards should primarily be used for content that has a related image.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      They are the default cards. They should only be used if there needs to be a call-to-action button.
+  category:
+    title: "Category"
+    description: |
+      They are only to be used when defining a category.
+  product:
+    title: "Product"
+    description: |
+      They are only to be used when listing a product for sale. It should always includes the price under the product name.
