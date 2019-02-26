@@ -1,0 +1,10 @@
+.header {
+  background-color: var(--color-primary-dark);
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+  border-bottom-color: var(--color-secondary);
+}
+
+.white {
+  color: #fff;
+}

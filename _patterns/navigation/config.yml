@@ -1,0 +1,17 @@
+title: "Navigation"
+description: |
+  Navigations are used to guide users through the website and find information.
+
+patterns:
+  breadcrumbs:
+    title: "Breadcrumbs"
+    description: |
+      Breadcrumbs show the path that was taken and it allows them to return to the previous pages easily.
+  page-nav:
+    title: "Page Navigation"
+    description: |
+      Page navigation allows the user to move between pages when there are more products available.
+  list:
+    title: "List Navigation"
+    description: |
+      List navigations are used for side navigation on wide screens only.

@@ -1,0 +1,13 @@
+title: "Sections"
+description: |
+  Sections can be used to organize content together and separate them.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      The basic section can be used anywhere to share information. It must have a link to another page.
+  section:
+    title: "Image"
+    description: |
+      The image style sections are used when there's a long description that can be placed above relating images.

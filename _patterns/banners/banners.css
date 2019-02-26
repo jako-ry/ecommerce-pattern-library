@@ -9,10 +9,6 @@
   bottom: 0;
 }
 
-.white-bg {
-  background-color: rgba(252, 248, 246, .9);
-}
-
 .action {
   background-color: var(--color-primary-dark);
   color: var(--color-neutral-light);
