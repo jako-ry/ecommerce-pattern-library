@@ -1,6 +1,6 @@
 input {
   border-width: thin;
-  border-radius: 12px;
+  border-radius: 6px;
   border-color: var(--color-secondary);
 }
 
@@ -12,7 +12,7 @@ input:focus {
 textarea,
 select {
   border-width: thin;
-  border-radius: 12px;
+  border-radius: 6px;
   border-color: var(--color-secondary);
 }
 
