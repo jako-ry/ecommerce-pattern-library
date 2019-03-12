@@ -7,6 +7,13 @@ patterns:
     title: "Basic"
     description: |
       They are the default buttons. They should be used on primarily light backgrounds.
+    fields:
+      - name: text
+        type: string
+        example: "Buy an Egg"
+      - name: url
+        type: url
+        example: "/products/"
   strong:
     title: "Strong"
     description: |

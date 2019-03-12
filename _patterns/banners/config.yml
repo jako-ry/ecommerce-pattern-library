@@ -7,6 +7,24 @@ patterns:
     title: "Top Page Banner"
     description: |
       The top page banners should only be used when there's something new or important that wants the attention of the user.
+    fields:
+      - name: heading
+        type: string
+        example: "The Little Prince"
+      - name: text
+        type: string
+        example: "He's from another planet but he's here to stay."
+      - name: image
+        type: string
+        example: "egg/little-prince.png"
+      - name: button_text
+        type: string
+        example: "Buy an Egg"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false
   call-to-action:
     title: "Call to Action"
     description: |

@@ -8,3 +8,40 @@
 .white {
   color: #fff;
 }
+
+.icon-white {
+  color: #fff;
+  transition: all .2s linear;
+}
+.icon-white:hover {
+  color: var(--color-secondary);
+}
+
+[type="checkbox"] + label::before {
+  display: none;
+}
+
+.nav {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 74px;
+  left: 0;
+  z-index: 2;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}

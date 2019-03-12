@@ -20,3 +20,6 @@ patternbot:
       The secondary colours are the colours from Egg's crown. They should be used for minor highlights to stand out against the primary colours.
     colors.neutral: |
       The neutral colors are the light colours from Egg's body. They should be used in the background.
+  layouts:
+    default: |
+      The default layout should be used for almost every page. It contains the header and footer.
