@@ -7,11 +7,42 @@ patterns:
     title: "Basic"
     description: |
       They are the default cards. They should only be used if there needs to be a call-to-action button.
+    fields:
+      - name: heading
+        type: string
+        example: "The Little Prince"
+      - name: text
+        type: string
+        example: "He's from another planet but he's here to stay."
+      - name: image
+        type: string
+        example: "egg/little-prince.png"
+      - name: button_text
+        type: string
+        example: "Buy an Egg"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false
   category:
     title: "Category"
     description: |
       The category cards should only to be used when defining a category.
-  product:
-    title: "Product"
+    fields:
+      - name: heading
+        type: string
+        example: "New Eggs"
+      - name: image
+        type: string
+        example: "egg/little-prince.png"
+  product-card:
+    title: "Product Card"
     description: |
       The product cards should only to be used when listing a product for sale. It should always includes the price under the product name.
+    fields:
+      - name: data
+        type: object
+          data:
+            source: "site.products[0]"
+            type: Product

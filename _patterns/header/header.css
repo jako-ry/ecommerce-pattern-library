@@ -45,3 +45,17 @@
 .nav-check:checked ~ .nav-label .nav-close {
   display: block;
 }
+
+.current a {
+  border-bottom-style: solid;
+  border-bottom-width: medium;
+  border-bottom-color: var(--color-secondary);
+}
+
+@media only screen and (min-width: 90em) {
+
+  .t-r {
+    text-align: right;
+  }
+
+}

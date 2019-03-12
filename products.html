@@ -4,3 +4,11 @@ highlight_nav: products
 ---
 
 {% pattern banners/banner heading="Popular Products" text="Check out our most popular products!" image="egg/little-prince.png" %}
+
+<div class="grid wrapper">
+  {% for product in site.products %}
+    <div class="unit m-1-4">
+      {% pattern cards/product-card data=product %}
+    </div>
+  {% endfor %}
+</div>

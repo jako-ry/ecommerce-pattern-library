@@ -29,3 +29,7 @@ patterns:
     title: "Call to Action"
     description: |
       The call to action banners should be used when there's something that the site wants the user to do like sign up.
+    fields:
+      - name: text
+        type: string
+        example: "Special: when signing up you get a 10% discount on your first order!"

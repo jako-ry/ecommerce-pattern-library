@@ -11,3 +11,13 @@ patterns:
     title: "Image"
     description: |
       The image style sections are used when there's a long description that can be placed above relating images.
+    fields:
+      - name: heading
+        type: string
+        example: "About Egg"
+      - name: text
+        type: string
+        example: "Egg is a small birb from another planet called Friegg. He is the one and only prince of Sunnyside."
+      - name: image
+        type: string
+        example: "egg/little-prince.png"

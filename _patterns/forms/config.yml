@@ -7,6 +7,10 @@ patterns:
     title: "Text"
     description: |
       This is the basic form. It is used for short one-lined text inputs like names, addresses, etc.
+    fields:
+      - name: label
+        type: string
+        example: "Text"
   email:
     title: "Email"
     description: |
@@ -23,6 +27,10 @@ patterns:
     title: "Number"
     description: |
       This should be used when the user needs to select an unlimited quantity.
+    fields:
+      - name: label
+        type: string
+        example: "Number"
   search:
     title: "Search"
     description: |
@@ -31,6 +39,10 @@ patterns:
     title: "Select"
     description: |
       This should be used when there is a long list of options to be chosen from (more than 4).
+    fields:
+      - name: label
+        type: string
+        example: "Select an item"
   radio:
     title: "Radio Button"
     description: |

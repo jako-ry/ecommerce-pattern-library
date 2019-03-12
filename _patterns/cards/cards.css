@@ -1,7 +1,12 @@
 .card {
   background-color: #fff;
+  transition: all .2s linear;
 }
 
 .primary {
   color: var(--color-primary);
+}
+
+.card-h:hover {
+  background-color: var(--color-neutral);
 }

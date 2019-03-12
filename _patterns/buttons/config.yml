@@ -18,11 +18,29 @@ patterns:
     title: "Strong"
     description: |
       The strong buttons are for call-to-actions that need to be especially attention-grabbing. They should be used primarily on darker backgrounds.
+    fields:
+      - name: text
+        type: string
+        example: "Super Egg"
+      - name: url
+        type: url
+        example: "/products/"
   ghost:
     title: "Ghost"
     description: |
       The ghost buttons are for call-to-actions on images and for optional actions.
+    fields:
+      - name: text
+        type: string
+        example: "Find your Egg"
+      - name: url
+        type: url
+        example: "/products/"
   circle:
     title: "Circle"
     description: |
       The circle buttons are used for icons only.
+    fields:
+      - name: url
+        type: url
+        example: "/products/"

@@ -1,10 +1,12 @@
 <div class="card island-1-2">
   <div class="embed embed-1by1 push">
-    <img class="embed-item img-flex" src="/images/egg/little-prince.png" alt="egg">
+    <img class="embed-item img-flex" src="/images/{{include.image}}" alt="egg">
   </div>
-  <div class="gutter-1-2 push-1-2">
-    <h2 class="tera push-1-2">The Little Prince</h2>
-    <p>He's from another planet but he's here to stay.</p>
-    {% pattern buttons/basic %}
+  <div class="push-1-2">
+    <h2 class="tera push-1-2">{{include.heading}}</h2>
+    <p>{{include.text}}</p>
+    {% if include.button_url %}
+      {% pattern buttons/basic url=include.button_url text=include.button_text %}
+    {% endif %}
   </div>
 </div>
