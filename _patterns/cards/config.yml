@@ -16,15 +16,15 @@ patterns:
         example: "He's from another planet but he's here to stay."
       - name: image
         type: string
-        example: "egg/little-prince.png"
+        example: "little-prince.png"
       - name: button_text
         type: string
         example: "Buy an Egg"
-        required: false
+        required: true
       - name: button_url
         type: url
         example: "/products/"
-        required: false
+        required: true
   category:
     title: "Category"
     description: |
@@ -35,7 +35,10 @@ patterns:
         example: "New Eggs"
       - name: image
         type: string
-        example: "egg/little-prince.png"
+        example: "little-prince.png"
+      - name: url
+        type: url
+        example: "all-products"
   product-card:
     title: "Product Card"
     description: |

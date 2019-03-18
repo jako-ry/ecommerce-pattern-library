@@ -3,7 +3,7 @@ name: "Egg Glitter Stickers"
 description: |
   Now Egg can brighten your day as glittery stickers! Decorate your notebooks, calendars, and gifts with Egg.
 non_conflict: true
-image: "/images/egg/little-prince.png"
+image: "/images/egg/little-egg.png"
 price: "1.99"
 colors:
   - "Pink"
