@@ -13,3 +13,19 @@
   background-color: var(--color-primary-dark);
   color: var(--color-neutral-light);
 }
+
+.plus {
+  display: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .plus {
+    display: block;
+  }
+
+  .mini {
+    display: none;
+  }
+
+}

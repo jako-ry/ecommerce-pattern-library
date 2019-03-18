@@ -3,13 +3,10 @@ layout: default
 highlight_nav: products
 ---
 
-{% pattern banners/banner heading="Popular Products" text="Check out our most popular products!" image="egg/little-prince.png" %}
-
-{% pattern banners/call-to-action text="<b>Special:</b> when signing up you get a 10% discount on your first order!" %}
-
 <div class="grid wrapper">
+  </div>
   {% for product in site.products %}
-    <div class="unit m-1-4">
+    <div class="unit xs-1 m-1-4">
       {% pattern cards/product-card data=product %}
     </div>
   {% endfor %}

@@ -7,10 +7,6 @@ patterns:
     title: "Basic"
     description: |
       The basic section can be used anywhere to share information. It must have a link to another page.
-  section:
-    title: "Image"
-    description: |
-      The image style sections are used when there's a long description that can be placed above relating images.
     fields:
       - name: heading
         type: string
@@ -20,4 +16,40 @@ patterns:
         example: "Egg is a small birb from another planet called Friegg. He is the one and only prince of Sunnyside."
       - name: image
         type: string
-        example: "egg/little-prince.png"
+        example: "little-prince.png"
+      - name: button_text
+        type: string
+        example: "Buy an Egg"
+        required: true
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: true
+  section:
+    title: "Image"
+    description: |
+      The image section is used when there's a long description that can be placed above relating images.
+    fields:
+      - name: heading
+        type: string
+        example: "About Egg"
+      - name: text
+        type: string
+        example: "Egg is a small birb from another planet called Friegg. He is the one and only prince of Sunnyside."
+      - name: image
+        type: string
+        example: "little-prince.png"
+  text:
+    title: "Text"
+    description: |
+      The text section is used when there's a long description that doesn't need an image to accompany it.
+    fields:
+      - name: heading
+        type: string
+        example: "About Egg"
+      - name: text
+        type: string
+        example: "Egg is a small birb from another planet called Friegg. He is the one and only prince of Sunnyside."
+      - name: image
+        type: string
+        example: "little-prince.png"
