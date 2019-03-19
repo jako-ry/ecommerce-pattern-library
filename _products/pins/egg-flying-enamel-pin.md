@@ -9,6 +9,7 @@ colors:
   - "Pink"
   - "Yellow"
 shiny: "Yes"
+glittery: "No"
 hard: "Yes"
 size: "1 inch"
 amount: "1"

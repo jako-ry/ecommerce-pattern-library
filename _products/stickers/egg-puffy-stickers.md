@@ -9,6 +9,7 @@ colors:
   - "Pink"
   - "Yellow"
 glossy: "No"
+glittery: "No"
 transparency: "No"
 size: "1.5 inch"
 amount: "12"

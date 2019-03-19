@@ -7,8 +7,13 @@ highlight_nav: products
   <div class="unit">
     {% pattern sections/text heading="All Products" text="All this place sells is a ton of stickers and pins. They are totally viable to sell. There's no need to have anything else. Nope. Not at all. Egg is excited to decorate your things." %}
   </div>
-  {% for product in site.products limit:16 %}
-    <div class="unit xs-1-2 m-1-4">
+  {% for product in site.products limit:12 %}
+    <div class="unit xs-0 m-1-4">
+      {% pattern cards/product-card data=product %}
+    </div>
+  {% endfor %}
+  {% for product in site.products limit:8 %}
+    <div class="unit xs-1-2 m-0">
       {% pattern cards/product-card data=product %}
     </div>
   {% endfor %}

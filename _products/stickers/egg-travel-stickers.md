@@ -11,6 +11,7 @@ colors:
   - "Green"
   - "Blue"
 glossy: "Yes"
+glittery: "No"
 transparency: "Yes"
 size: "1 inch"
 amount: "24"
