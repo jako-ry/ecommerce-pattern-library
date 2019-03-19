@@ -50,6 +50,3 @@ patterns:
       - name: text
         type: string
         example: "Egg is a small birb from another planet called Friegg. He is the one and only prince of Sunnyside."
-      - name: image
-        type: string
-        example: "little-prince.png"

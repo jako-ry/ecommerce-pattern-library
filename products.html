@@ -3,11 +3,15 @@ layout: default
 highlight_nav: products
 ---
 
-<div class="grid wrapper">
-  </div>
-  {% for product in site.products %}
+{% pattern sections/text heading="All Products" text="All this place sells is a ton of stickers and pins. They are totally viable to sell. There's no need to have anything else. Nope. Not at all. Egg is excited to decorate your things." %}
+
+<div class="grid wrapper white-bg">
+  {% for product in site.products limit:16 %}
     <div class="unit xs-1 m-1-4">
       {% pattern cards/product-card data=product %}
     </div>
   {% endfor %}
+  <div class="unit xs-1">
+    {% pattern navigation/page-nav %}
+  </div>
 </div>

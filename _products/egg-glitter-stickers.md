@@ -1,7 +1,7 @@
 ---
 name: "Egg Glitter Stickers"
 description: |
-  Now Egg can brighten your day as glittery stickers! Decorate your notebooks, calendars, and gifts with Egg.
+  Now Egg can brighten your day as glittery stickers! Just don't use them too much or you'll be glittery for days. Decorate your notebooks, calendars, and gifts with Egg.
 non_conflict: true
 image: "/images/egg/little-egg.png"
 price: "1.99"

@@ -16,7 +16,7 @@ patterns:
         example: "He's from another planet but he's here to stay."
       - name: image
         type: string
-        example: "little-prince.png"
+        example: "little-egg.png"
       - name: button_text
         type: string
         example: "Buy an Egg"
@@ -35,7 +35,7 @@ patterns:
         example: "New Eggs"
       - name: image
         type: string
-        example: "little-prince.png"
+        example: "little-egg.png"
       - name: url
         type: url
         example: "all-products"
@@ -46,6 +46,6 @@ patterns:
     fields:
       - name: data
         type: object
-          data:
-            source: "site.products[0]"
-            type: Product
+        data:
+          source: "site.products[0]"
+          type: Product
