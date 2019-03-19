@@ -7,11 +7,38 @@ patterns:
     title: "Breadcrumbs"
     description: |
       Breadcrumbs show the path that was taken and it allows them to return to the previous pages easily.
+    fields:
+      - name: main
+        type: string
+        example: "Products"
+      - name: secondary
+        type: string
+        example: "/ Stickers"
+        required: false
+      - name: item
+        type: string
+        example: "/ Egg"
+      - name: url-main
+        type: url
+        example: "/products/"
+      - name: url-secondary
+        type: url
+        example: "/products/"
+        required: false
   page-nav:
     title: "Page Navigation"
     description: |
       Page navigation allows the user to move between pages when there are more products available.
-  list:
-    title: "List Navigation"
-    description: |
-      List navigations are used for side navigation on wide screens only.
+    fields:
+      - name: current1
+        type: string
+        example: "current-page"
+        required: false
+      - name: current2
+        type: string
+        example: "current-page"
+        required: false
+      - name: current3
+        type: string
+        example: "current-page"
+        required: false

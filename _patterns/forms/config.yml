@@ -19,6 +19,10 @@ patterns:
     title: "Password"
     description: |
       This should only be used when a password is required.
+    fields:
+      - name: placeholder
+        type: string
+        example: "Must be at least 8 characters"
   tel:
     title: "Telephone"
     description: |
@@ -35,27 +39,62 @@ patterns:
     title: "Search"
     description: |
       This should only be used for the search bar.
+    fields:
+      - name: placeholder
+        type: string
+        example: "Search..."
   select:
     title: "Select"
     description: |
-      This should be used when there is a long list of options to be chosen from (more than 4).
+      This should be used when there is a long list of options to be chosen from (4 or more).
     fields:
       - name: label
         type: string
         example: "Select an item"
+      - name: option1
+        type: string
+        example: "Option 1"
+      - name: option2
+        type: string
+        example: "Option 2"
+      - name: option3
+        type: string
+        example: "Option 3"
+      - name: option4
+        type: string
+        example: "Option 4"
   radio:
     title: "Radio Button"
     description: |
       This should be used when there is a short list of options to be chosen from (less than 4).
+    fields:
+      - name: label
+        type: string
+        example: "Radio"
   checkbox:
     title: "Checkbox"
     description: |
       This should be used when there is a list of options where multiple options can be chosen, like filters, and for agreements.
+    fields:
+      - name: label
+        type: string
+        example: "I agree"
   text-area:
     title: "Text Area"
     description: |
       This is for large amount of text and are to be used for filling out reviews or leaving paragraph responses.
+    fields:
+      - name: label
+        type: string
+        example: "Text Area"
+      - name: placeholder
+        type: string
+        example: "Write all about your love of Egg here!"
   submit:
     title: "Submit"
     description: |
       This button is specifically for submitting forms and should only be used for forms.
+    fields:
+      - name: submit
+        type: string
+        example: "Submit!"

@@ -44,3 +44,6 @@ patterns:
       - name: url
         type: url
         example: "/products/"
+      - name: icon
+        type: string
+        example: "right-arrow"

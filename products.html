@@ -3,15 +3,19 @@ layout: default
 highlight_nav: products
 ---
 
-{% pattern sections/text heading="All Products" text="All this place sells is a ton of stickers and pins. They are totally viable to sell. There's no need to have anything else. Nope. Not at all. Egg is excited to decorate your things." %}
-
 <div class="grid wrapper white-bg">
+  <div class="unit">
+    {% pattern sections/text heading="All Products" text="All this place sells is a ton of stickers and pins. They are totally viable to sell. There's no need to have anything else. Nope. Not at all. Egg is excited to decorate your things." %}
+  </div>
   {% for product in site.products limit:16 %}
-    <div class="unit xs-1 m-1-4">
+    <div class="unit xs-1-2 m-1-4">
       {% pattern cards/product-card data=product %}
     </div>
   {% endfor %}
-  <div class="unit xs-1">
-    {% pattern navigation/page-nav %}
+  <div class="unit xs-0 m-1">
+    {% pattern navigation/page-nav icon="right-arrow" current1="current-page" %}
+  </div>
+  <div class="unit xs-1 m-0 text-center pad-t pad-b">
+    {% pattern buttons/circle url="/products/" icon="right-arrow" %}
   </div>
 </div>
