@@ -11,10 +11,17 @@ patterns:
       - name: label
         type: string
         example: "Text"
+      - name: error
+        type: string
+        example: "You need to enter some text"
   email:
     title: "Email"
     description: |
       This should only be used when an email is required.
+    fields:
+      - name: error
+        type: string
+        example: "Please enter a valid email address"
   password:
     title: "Password"
     description: |
@@ -23,10 +30,17 @@ patterns:
       - name: placeholder
         type: string
         example: "Must be at least 8 characters"
+      - name: error
+        type: string
+        example: "Passwords must be at least 8 characters long"
   tel:
     title: "Telephone"
     description: |
       This should only be used when a telephone number is required.
+    fields:
+      - name: error
+        type: string
+        example: "Please enter a valid telephone number"
   number:
     title: "Number"
     description: |
@@ -35,6 +49,9 @@ patterns:
       - name: label
         type: string
         example: "Number"
+      - name: error
+        type: string
+        example: "Please select an amount"
   search:
     title: "Search"
     description: |
@@ -63,6 +80,9 @@ patterns:
       - name: option4
         type: string
         example: "Option 4"
+      - name: error
+        type: string
+        example: "Please select an option"
   radio:
     title: "Radio Button"
     description: |
@@ -79,6 +99,9 @@ patterns:
       - name: label
         type: string
         example: "I agree"
+      - name: error
+        type: string
+        example: "You must agree"
   text-area:
     title: "Text Area"
     description: |

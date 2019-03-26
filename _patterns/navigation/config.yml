@@ -13,18 +13,16 @@ patterns:
         example: "Products"
       - name: secondary
         type: string
-        example: "/ Stickers"
-        required: false
+        example: "Stickers"
       - name: item
         type: string
-        example: "/ Egg"
+        example: "Egg"
       - name: url-main
         type: url
         example: "/products/"
       - name: url-secondary
         type: url
-        example: "/products/"
-        required: false
+        example: "/stickers/"
   page-nav:
     title: "Page Navigation"
     description: |

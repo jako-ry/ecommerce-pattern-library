@@ -7,20 +7,16 @@ patterns:
     fields:
       - name: imagemain
         type: string
-        example: "little-prince.png"
+        example: "little-egg.png"
       - name: image2
         type: string
         example: "little-egg.png"
-        required: false
       - name: image3
         type: string
         example: "little-egg.png"
-        required: false
       - name: image4
         type: string
         example: "little-egg.png"
-        required: false
       - name: image5
         type: string
         example: "little-egg.png"
-        required: false

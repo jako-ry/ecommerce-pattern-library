@@ -6,7 +6,7 @@ patterns:
   basic:
     title: "Basic"
     description: |
-      The basic section can be used anywhere to share information. It must have a link to another page.
+      The basic section can be used anywhere to share information. It can have a link to another page.
     fields:
       - name: heading
         type: string
@@ -20,11 +20,11 @@ patterns:
       - name: button_text
         type: string
         example: "Buy an Egg"
-        required: true
+        required: false
       - name: button_url
         type: url
         example: "/products/"
-        required: true
+        required: false
   section:
     title: "Image"
     description: |
