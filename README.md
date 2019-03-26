@@ -40,9 +40,8 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 
 ## Collaborators
 
-[@jako-ry](https://github.com/jako-ry)
-[@ixamxkamii](https://github.com/ixamxkamii)
-[@karenhodgkinson](https://github.com/karenhodgkinson)
+- [@ixamxkamii](https://github.com/ixamxkamii)
+- [@karenhodgkinson](https://github.com/karenhodgkinson)
 
 ---
 
