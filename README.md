@@ -1,10 +1,12 @@
-# Egg
+# Project Description
 
-**Version 1.0.0**
+Egg is an e-commerce website that sells merchandise of the character Egg.
 
-Egg is a website that only sells stickers and pins of the character Egg.
+---
 
-This website is made to sell Egg merchandise.
+## Content
+
+This website only sells stickers and pins.
 
 ---
 
@@ -32,10 +34,18 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 
 ## Demos
 
-[Pattern Library](https://gallant-northcutt-074c57.netlify.com/pattern-library/#brand)
+[Pattern Library for Egg](https://gallant-northcutt-074c57.netlify.com/pattern-library/#brand)
+
+---
+
+## Collaborators
+
+[@jako-ry](https://github.com/jako-ry)
+[@ixamxkamii](https://github.com/ixamxkamii)
+[@karenhodgkinson](https://github.com/karenhodgkinson)
 
 ---
 
 ## License & copyright
 
-© Tracy Jack Huynh, Algonquin College Graphic Design
+© Egg, 2019
