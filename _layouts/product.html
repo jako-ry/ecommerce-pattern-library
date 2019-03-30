@@ -1,7 +1,60 @@
 ---
 layout: default
 ---
+<div class="grid wrapper pad-t-2">
 
-<h1>{{page.name}}</h1>
-<p>{{page.description}}</p>
-<img src="{{page.image}}" alt="">
+  <div class="unit xs-1 m-1 l-1-2 island">
+
+  <div class="grid">
+
+      <div class="unit xs-1 m-1 island">
+        <div class="embed embed-1by1">
+          <img class="embed-item" src="{{page.image}}" alt="">
+        </div>
+      </div>
+
+      <div class="unit xs-1-4 m-1-4 island">
+        <div class="embed embed-1by1">
+          <img class="embed-item" src="{{page.image}}" alt="">
+        </div>
+      </div>
+
+      <div class="unit xs-1-4 m-1-4 island">
+        <div class="embed embed-1by1">
+          <img class="embed-item" src="{{page.image}}" alt="">
+        </div>
+      </div>
+
+      <div class="unit xs-1-4 m-1-4 island">
+        <div class="embed embed-1by1">
+          <img class="embed-item" src="{{page.image}}" alt="">
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="unit xs-1 m-1 l-1-2 island">
+    <h1>{{page.name}}</h1>
+    <p>{{page.description}}</p>
+    <p>${{page.price}}</p>
+    <p>quantity</p>
+    <form></form>
+    {% pattern buttons/basic text="add to cart"%}
+  </div>
+
+</div>
+<h3 class="gutter">related products</h3>
+<div class="grid wrapper push-2">
+  <div class="unit xs-1 l-1-4 island-1-2">
+    {% pattern cards/product-card data=product %}
+  </div>
+  <div class="unit xs-1 l-1-4 island-1-2">
+    {% pattern cards/product-card data=product %}
+  </div>
+  <div class="unit xs-1 l-1-4 island-1-2">
+    {% pattern cards/product-card data=product %}
+  </div>
+  <div class="unit xs-1 l-1-4 island-1-2">
+    {% pattern cards/product-card data=product %}
+  </div>
+</div>
