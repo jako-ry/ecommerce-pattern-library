@@ -68,6 +68,9 @@ patterns:
       - name: label
         type: string
         example: "Select an item"
+      - name: select
+        type: string
+        example: "Select an option"
       - name: option1
         type: string
         example: "Option 1"
