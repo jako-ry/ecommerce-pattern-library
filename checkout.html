@@ -22,8 +22,78 @@ layout: default
       <div class="unit xs-1 s-1 m-1-3 l-1-3 gutter-1-4">
         {% pattern forms/select label="Province/State" select="Select a province" option1="Ontario" option2="Alberta" option3="British Columbia" option4="Yukon" error="Please select a country" %}
       </div>
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 push-1-2">
+        {% pattern forms/text label="Postal/Zip Code" error="Please enter your postal or zip code" %}
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+        {% pattern buttons/circle url="/products/" icon="left-arrow" %}
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 text-right push">
+        {% pattern forms/submit submit="Submit!" %}
+      </div>
+    </div>
+  </div>
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
+    <div class="grid push">
+      <div class="unit xs-1-3 s-1-3 m-1-3 l-1-3">
+        <img class="img-flex" src="{{site.products[0].image}}">
+      </div>
+      <div class="unit xs-2-3 s-2-3 m-2-3 l-2-3 pad-t">
+        <h1 class="push-0 mega">{{site.products[0].name}}</h1>
+        <p>${{site.products[0].price}}</p>
+      </div>
+    </div>
+    <div class="grid island">
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+        <h6 class="push-1-2">subtotal</h6>
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+        <p class="text-right push-1-2">$11.99</p>
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+        <h6>shipping</h6>
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+        <p class="text-right">free</p>
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1">
+        <hr>
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+        <h6>total</h6>
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+        <p class="text-right">$11.99</p>
+      </div>
+    </div>
+  </div>
+  <div class="unit xs-1 s-1 unit-m-hidden unit-l-hidden island">
+    <h3 class="push-0 pad-t">Contact Information</h3>
+    {% pattern forms/tel error="Please enter a valid telephone number" %}
+    {% pattern forms/email error="Please enter a valid email address" %}
+    <div class="push">
+      {% pattern forms/checkbox label="keep me posted on news and exclusive email offers" %}
+    </div>
+    <h3 class="giga">Shipping Address</h3>
+    {% pattern forms/text label="Full Name" error="Please enter your full name" %}
+    {% pattern forms/text label="Street Address" error="Please enter your address" %}
+    {% pattern forms/text label="Apartment, suite, etc (optional)" error="Please enter your address" %}
+    {% pattern forms/text label="City" error="Please enter your city" %}
+    <div class="grid">
+      <div class="unit xs-1 s-1 m-1-3 l-1-3">
+        {% pattern forms/select label="Country" select="Select a country" option1="Canada" option2="United States" option3="United Kingdom" option4="Japan" error="Please select a country" %}
+      </div>
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 gutter-1-4">
+        {% pattern forms/select label="Province/State" select="Select a province" option1="Ontario" option2="Alberta" option3="British Columbia" option4="Yukon" error="Please select a country" %}
+      </div>
       <div class="unit xs-1 s-1 m-1-3 l-1-3">
         {% pattern forms/text label="Postal/Zip Code" error="Please enter your postal or zip code" %}
+      </div>
+      <div class="unit xs-1 s-1-2 m-1 l-1-2">
+        {% pattern buttons/circle url="/products/" icon="left-arrow" %}
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 text-right push">
+        {% pattern forms/submit submit="Submit!" %}
       </div>
     </div>
   </div>
