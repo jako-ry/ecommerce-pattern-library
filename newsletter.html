@@ -5,15 +5,15 @@ layout: default
 <div class="grid wrapper white-bg">
   <div class="unit xs-1">
   {% pattern banners/call-to-action text="Promotion: there's a big discount when buying in bulk!" %}
-  {% pattern banners/banner heading="Buying in Bulk" text="For a limited time when you purchase our special glitter Egg stickers you'll receive a discount!" image="egg/little-prince.png" %}
+  {% pattern banners/banner heading="Buying in Bulk" text="For a limited time when you purchase our new Egg enamel pins you'll receive a discount!" image="egg/little-prince.png" %}
   </div>
   <div class="unit xs-1 m-1-2">
-    {% pattern cards/basic heading="Egg Glitter Stickers" text="Now Egg can brighten your day as glittery stickers! Just don't use them too much or you'll be glittery for days. Decorate your notebooks, calendars, and gifts with Egg." image="little-egg.png" button_text="Buy now!" button_url="/products/" %}
+    {% pattern cards/basic heading="Egg Sleeping Enamel Pin" text="What's this? Egg is taking a nap! Now you can pin Egg to anything and bring him around while he sleeps. It doesn't bother him at all." image="little-egg.png" button_text="Buy now!" button_url="/products/" %}
   </div>
   <div class="unit xs-1 m-1-2">
-    {% pattern cards/basic heading="Egg Glitter Party Stickers" text="You can party with Egg! He's having a glittery party to make a mess. Decorate your notebooks, calendars, and gifts with Egg." image="little-egg.png" button_text="Buy now!" button_url="/products/" %}
+    {% pattern cards/basic heading="Egg Flying Enamel Pin" text="Who knew that Egg could fly? His wings are tiny! It makes no scientific sense. Now you can have your very own flying Egg that defies the laws of physics." image="little-egg.png" button_text="Buy now!" button_url="/products/" %}
   </div>
-  <div class="unit xs-1">
+  <div class="unit xs-1 gutter-1-2">
     <table class="wrapper">
       <thead>
         <tr>
@@ -25,27 +25,27 @@ layout: default
       <tbody>
         <tr>
           <td class="bold island-1-2">1–10</td>
-          <td class="island-1-2">$5.99</td>
+          <td class="island-1-2">$9.49</td>
           <td class="island-1-2">5%</td>
         </tr>
         <tr>
           <td class="bold island-1-2">11–49</td>
-          <td class="island-1-2">$5.49</td>
+          <td class="island-1-2">$8.99</td>
           <td class="island-1-2">10%</td>
         </tr>
         <tr>
           <td class="bold island-1-2">50–75</td>
-          <td class="island-1-2">$4.99</td>
+          <td class="island-1-2">$8.49</td>
           <td class="island-1-2">15%</td>
         </tr>
         <tr>
           <td class="bold island-1-2">75-100</td>
-          <td class="island-1-2">$4.25</td>
+          <td class="island-1-2">$7.99</td>
           <td class="island-1-2">20%</td>
         </tr>
         <tr>
           <td class="bold island-1-2">100+</td>
-          <td class="island-1-2">$3.99</td>
+          <td class="island-1-2">$7.49</td>
           <td class="island-1-2">25%</td>
         </tr>
       </tbody>
@@ -53,5 +53,9 @@ layout: default
   </div>
   <div class="unit xs-1">
     {% pattern banners/call-to-action text="Sign up for our newsletter today with your email!" %}
+    <div class="pad-t max-length push">
+      {% pattern forms/email error="Please enter a valid email address" %}
+      {% pattern forms/submit submit="Sign up!" %}
+    </div>
   </div>
 </div>
